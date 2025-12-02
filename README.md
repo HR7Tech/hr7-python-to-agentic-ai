@@ -9,4 +9,4 @@ This repository captures my learning and projects, showing how I progress from P
 
 - 🤖 Agentic AI Projects – Hands-on experiments and projects showcasing my work in Agentic AI.
 
-This repository is designed to share my learning journey and inspire others exploring Python and Agentic AI.
+This repository is designed to share my learning journey and inspire others exploring Python Programming and Agentic AI.
