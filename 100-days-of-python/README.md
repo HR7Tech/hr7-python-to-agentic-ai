@@ -6,10 +6,10 @@ Each day includes exercises and projects across beginner, intermediate, and adva
 
 ### What’s inside
 
-- 🟢 Beginner exercises – Learn the fundamentals of Python
+- 🟢 Beginner – Learn the fundamentals of Python
 
-- 🟡 Intermediate projects – Apply Python concepts in more challenging tasks
+- 🟡 Intermediate – Apply Python concepts in more challenging tasks
 
-- 🔵 Advanced projects – Complete complex exercises and mini-projects to master Python
+- 🔵 Advanced – Complete complex exercises and mini-projects to master Python
 
 This folder is designed to document my learning journey and provide practical Python examples for others to follow along.
