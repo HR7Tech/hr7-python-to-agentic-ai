@@ -5,7 +5,7 @@ This repository captures my learning and projects, showing how I progress from P
 
 # Contents
 
-- 🐍 100 Days of Python Challenge – Daily exercises from the Angela Yu Python course.
+- 🐍 100 Days of Python Challenge – Daily exercises from the Angela Yu Python Bootcamp (Udemy).
 
 - 🤖 Agentic AI Projects – Hands-on experiments and projects showcasing my work in Agentic AI.
 
