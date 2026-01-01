@@ -1,4 +1,4 @@
-# Day 1 – Python Fundamentals Summary 🐍
+# Day_01 - Beginner - Variables - Summary 🐍
 
 This session focused on core Python basics, starting with output using the print() function and formatting text with escape sequences such as \n. I practiced string concatenation and learned how to take dynamic user input using the input() function to make programs interactive.
 
