@@ -1,4 +1,4 @@
-## Day_02 - Beginner - Data Types - Summary
+# Day_02 - Beginner - Data Types - Summary  🐍
 
 On Day 02 of my Python bootcamp, I learned about primitive data types, type checking and conversion, mathematical operations, and number formatting using f-strings. 
 
