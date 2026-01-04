@@ -75,3 +75,15 @@ print(fruits2)
 
 print(fruits) # Original list remains same.!
 
+# -------------------------------------------------
+
+# Nested Lists:
+
+list_1 = ["Apple","Banana","Grape"]
+list_2 = ["Potato","Onion","Tomato"]
+
+grocery = [list_1,list_2]
+
+print(grocery)
+
+print(grocery[0][1])
