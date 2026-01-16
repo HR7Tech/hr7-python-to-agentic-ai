@@ -1,10 +1,10 @@
-# Hurdle 1:
+# HURDLE 01:
 
 # https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json
 
 # -------------------------------------------------
 
-# HURDLE 1 SOLUTION USING 'FOR LOOP':
+# HURDLE 01 SOLUTION USING 'FOR LOOP':
     
 # def turn_right():
 #     turn_left()
@@ -25,4 +25,27 @@
 #     jump()
 
 # -------------------------------------------------
+
+# HURDLE 01 SOLUTION USING 'WHILE LOOP':
+    
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+
+# def jump():
+#     move()
+#     turn_left()
+#     move()
+#     turn_right()
+#     move()
+#     turn_right()
+#     move()
+#     turn_left()
+    
+# number_of_hurdles = 6
+
+# while number_of_hurdles > 0:
+#     jump()
+#     number_of_hurdles -= 1 
 
