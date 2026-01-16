@@ -1,5 +1,6 @@
-# hr7-python-to-agentic-ai
-HR7’s documented journey from Python basics to advanced Agentic AI systems.
+# Python-To-Agentic-AI
+
+My documented journey from Python basics to advanced Agentic AI systems.
 
 This repository captures my learning and projects, showing how I progress from Python programming to building Agentic AI systems. Key parts of the code are commented to explain the logic and thought process, helping others understand important steps.
 
