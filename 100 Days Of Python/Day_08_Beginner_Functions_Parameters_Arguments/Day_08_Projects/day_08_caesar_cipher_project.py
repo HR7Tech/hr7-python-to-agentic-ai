@@ -1,59 +1,37 @@
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 
-            'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
 
-# -------------------------------------------------
+def caesar(original_text, shift_amount, encode_or_decode):
+    output_text = ""
 
-# Encryption
+    if encode_or_decode == "decode":
+        shift_amount *= -1
 
-# TODO-1: Create a function called 'encrypt()' that takes 'original_text' and 'shift_amount' as 2 inputs.
+    for letter in original_text:
+        # What happens if the user enters a number/symbol/space?
+        if letter not in alphabet:
+            output_text += letter
+        else:
+            shifted_position = alphabet.index(letter) + shift_amount
+            shifted_position %= len(alphabet)
+            output_text += alphabet[shifted_position]
 
-def encrypt(original_text , shift_amount):
-    cipher_text = ""
+    print(f"Here is the {encode_or_decode}d result: {output_text}")
 
-    # TODO-2: Inside the 'encrypt()' function, shift each letter of the 'original_text' 
-    # forwards in the alphabet by the shift amount and print the encrypted text.
 
-    for char in original_text:
-        shifted_amount = alphabet.index(char) + shift_amount
-        
-        # TODO-3: What happens if you try to shift z forwards by 9? Can you fix the code?
+# Restart the cipher program?
 
-        shifted_amount %= len(alphabet) # It will keep the shift range from 0 to 25
+restart = True
 
-        cipher_text += alphabet[shifted_amount]
+while restart:
+    direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+    text = input("Type your message:\n").lower()
+    shift = int(input("Type the shift number:\n"))
 
-    print(cipher_text)
+    caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
 
-# TODO-4: Call the 'encrypt()' function and pass in the user inputs. 
-# You should be able to test the code and encrypt a message.
+    yes_or_no = input("Type 'yes' to go again. Otherwise type 'no' to quit: ").lower()
+    if yes_or_no == "no":
+        restart = False
 
-encrypt(original_text = text,shift_amount = shift)
-
-# -------------------------------------------------
-
-# Decryption
-
-# TODO-1: Create a function called 'decrypt()' that takes 'original_text' and 'shift_amount' as inputs.
-# TODO-2: Inside the 'decrypt()' function, shift each letter of the 'original_text' *backwards* 
-# in the alphabet by the shift amount and print the decrypted text.
-
-def decrypt(original_text , shift_amount):
-    decrypt_text = ""
-
-    for char in original_text:
-        shifted_amount = alphabet.index(char) + shift_amount
-        
-        # TODO-3: What happens if you try to shift z forwards by 9? Can you fix the code?
-
-        shifted_amount %= len(alphabet) # It will keep the shift range from 0 to 25
-
-        decrypt_text += alphabet[shifted_amount]
-
-    print(decrypt_text)
-
-decrypt(original_text = text , shift_amount = shift)
 
