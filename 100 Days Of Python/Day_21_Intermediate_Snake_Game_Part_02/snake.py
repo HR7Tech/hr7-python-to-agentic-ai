@@ -12,12 +12,22 @@ class Snake:
 
     def create_snake(self):
         for position in STARTING_POSITION:
-            new_segment = Turtle("square")
-            new_segment.color("white")
-            new_segment.penup()
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+            self.add_segment(position)
 
+    # Add segment with position as argument(required argument)
+    def add_segment(self,position):
+       new_segment = Turtle("square")
+       new_segment.color("white")
+       new_segment.penup()
+       new_segment.goto(position)
+       self.segments.append(new_segment)
+
+    # Extend snake body by adding a segment at the last index
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
+
+
+    # Snake's Movements
     def move(self):
         for seg_num in range(len(self.segments) - 1, 0, -1):  # Start , End , Step
             # Last segment moves to Second last segments.
