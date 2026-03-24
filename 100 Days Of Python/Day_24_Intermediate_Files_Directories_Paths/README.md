@@ -1,7 +1,7 @@
 # Day_24 - Intermediate - Files - Directories - Paths - Summary 🐍
 
 
-On Day 23 of Python bootcamp, I learned how to work with **files**, **directories**, and **file paths** in Python. 
+On Day 24 of Python bootcamp, I learned how to work with **files**, **directories**, and **file paths** in Python. 
 
 I practiced **opening**, **reading**, and **writing files** using the **with** keyword, which ensures files are handled safely and closed automatically.
 
