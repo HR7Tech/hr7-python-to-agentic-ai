@@ -1,4 +1,4 @@
-# Day 29 - Building a Pomodoro Timer App with Tkinter ⏳🐍
+# Day 28 - Building a Pomodoro Timer App with Tkinter ⏳🐍
 
 ## Topics Covered
 
