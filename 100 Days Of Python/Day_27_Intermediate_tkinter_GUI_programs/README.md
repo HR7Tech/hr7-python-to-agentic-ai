@@ -1,4 +1,4 @@
-# Day 27 - Tkinter & GUI Development 🐍
+# Day 27 - Intermediate - Tkinter & GUI Development 🐍
 
 ## Topics Covered
 
