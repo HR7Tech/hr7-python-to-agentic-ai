@@ -1,4 +1,4 @@
-# Day 30 - Error Handling & JSON in Python 🐍
+# Day 30 - Intermediate - Error Handling & JSON in Python 🐍
 
 ## Topics Covered
 
