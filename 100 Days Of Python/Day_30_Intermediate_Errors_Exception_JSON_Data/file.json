@@ -1,0 +1,10 @@
+{
+   "person": {
+      "name": "Hamid",
+      "age": 30
+   },
+   "person2": {
+      "name": "Hanzala",
+      "age": "6 months"
+   }
+}

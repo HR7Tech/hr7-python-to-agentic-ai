@@ -9,7 +9,8 @@ else:
 
 # try = no error => else executed
 try:
-    file = open("file.txt","w")
+    file = open("file.txt","a")
+    file.write("Hello World")
 except FileNotFoundError:
     print("File Not Found ?")
 else:
@@ -18,7 +19,7 @@ else:
 
 # try = error => except executed
 try:
-    file = open("file.txt","w")
+    file = open("file.txt","a")
     a_list = [1,2,3]
     print(a_list[3])
 except IndexError:
